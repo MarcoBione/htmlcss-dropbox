@@ -1,6 +1,21 @@
+/* GENERAL */
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.debug{
+    outline: 1px solid black;
+}
+
+.w-1200{
+    max-width: 1200px;
+}
+
+.w-1000{
+    max-width: 1000px;
+}
+
+/* END GENERAL */
