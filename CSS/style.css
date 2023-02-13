@@ -125,3 +125,48 @@ header div img{
 
 
 /* END HEADER */
+
+/* MAIN */
+
+/* END MAIN */
+
+
+/* FOOTER */
+
+footer{
+    background-color: var(--text-dark);
+    color: var(--bg-color);
+}
+
+footer div>ul>li{
+    width: calc(100% / 5);
+}
+
+footer div>ul>li>ul>li{
+    padding: 15px 0px;
+}
+
+footer h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 50px 0 25px 0;
+}
+
+hr{
+    max-width: 15%;
+}
+
+.socials{
+    padding: 25px 0 25px 0;
+}
+
+footer div i{
+    font-size: 1.5rem;
+    padding-right: 10px;
+}
+
+footer div label i{
+    font-size: 1.2rem;
+    color: var(--bg-color);
+}
+/* END FOOTER */
