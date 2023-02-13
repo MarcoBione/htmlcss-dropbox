@@ -115,7 +115,9 @@ header div img{
     max-width: calc(100% / 3);
 }
 
-
+.main-title{
+    font-size: 2.5rem;
+}
 
 
 /* END JUMBO SECTION */
