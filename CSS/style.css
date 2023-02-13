@@ -33,10 +33,12 @@ ul{
 
 .w-1200{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .w-1000{
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .d-flex{
@@ -83,8 +85,16 @@ nav{
     border-bottom: 2px solid var(--border-boxes);
 }
 
-/* END NEAV BAR */
+/* END NAV BAR */
 
+/* JUMBO SECTION */
+
+.jumbo{
+    margin-top: 100px;
+}
+
+
+/* END JUMBO SECTION */
 
 
 
