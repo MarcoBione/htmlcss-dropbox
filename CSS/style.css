@@ -83,6 +83,7 @@ nav li{
 
 nav{
     border-bottom: 2px solid var(--border-boxes);
+    background-color: var(--bg-color);
 }
 
 /* END NAV BAR */
@@ -90,11 +91,13 @@ nav{
 /* JUMBO SECTION */
 
 .container{
-    margin-top: 100px;
+    padding-top: 100px;
 
 }
 
-
+.jumbo{
+    background-color: var(--bg-jumbotron);
+}
 /* END JUMBO SECTION */
 
 
