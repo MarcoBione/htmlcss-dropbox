@@ -46,8 +46,16 @@ ul{
     flex-flow: row wrap;
 }
 
-.j-space-b{
+.j-content-sb{
     justify-content: space-between;
+}
+
+.j-content-e{
+    justify-content: flex-end;
+}
+
+.a-self-end{
+    align-self: flex-end;
 }
 
 .a-items-center{
@@ -98,6 +106,18 @@ nav{
 .jumbo{
     background-color: var(--bg-jumbotron);
 }
+
+header div img{
+    width: 600px;
+}
+
+.info{
+    max-width: calc(100% / 3);
+}
+
+
+
+
 /* END JUMBO SECTION */
 
 
