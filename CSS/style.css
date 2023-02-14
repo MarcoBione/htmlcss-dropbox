@@ -78,6 +78,13 @@ ul{
     padding: 10px 0;
 }
 
+.padding-ul{
+    padding: 15px 0
+}
+
+.padding-space-li{
+    padding-bottom: 15px;
+}
 .button-b{
     background-color: var(--bg-buttons);
     color: var(--bg-color);
@@ -201,6 +208,10 @@ main h2{
 .box-infocontent{
     text-align: start;
     padding: 15px 0 15px 15px;
+}
+
+main h4{
+    font-size: 1.2rem;
 }
 
 /* end promo box */
