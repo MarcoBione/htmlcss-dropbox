@@ -83,7 +83,7 @@ ul{
 }
 
 .padding-ul{
-    padding: 15px 0
+    padding: 15px 0;
 }
 
 .padding-space-li{
@@ -207,7 +207,7 @@ main h2{
 
 /* promo box */
 .box{
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 50px);
 }
 
 .box-title{
@@ -234,6 +234,10 @@ main h4{
     max-width: 65%;
 }
 
+
+.fa-check{
+    color: var(--bg-buttons);
+}
 /* end promo box */
 
 
