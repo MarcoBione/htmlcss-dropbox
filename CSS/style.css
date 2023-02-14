@@ -50,6 +50,10 @@ ul{
     justify-content: space-between;
 }
 
+.j-content-c{
+    justify-content: center;
+}
+
 .j-content-e{
     justify-content: flex-end;
 }
@@ -99,6 +103,10 @@ ul{
 
 .button-default{
     border: 1px solid var(--text-dark);
+}
+
+.button-size{
+    padding: 10px 40px 10px 40px;
 }
 
 .d-border{
@@ -211,8 +219,19 @@ main h2{
     padding: 15px 0 15px 15px;
 }
 
+.box-infocontent-enterprise{
+    text-align: start;
+    padding: 15px 15px 15px 15px;
+}
+
+
 main h4{
     font-size: 1.2rem;
+}
+
+.info-enterprise-personal{
+    display: inline-block;
+    max-width: 65%;
 }
 
 /* end promo box */
