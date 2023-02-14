@@ -194,6 +194,15 @@ main h2{
     width: calc(100% / 3 - 10px);
 }
 
+.box-title{
+    text-align: center;
+}
+
+.box-infocontent{
+    text-align: start;
+    padding: 15px 0 15px 15px;
+}
+
 /* end promo box */
 
 
