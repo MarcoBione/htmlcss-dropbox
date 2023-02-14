@@ -234,12 +234,28 @@ main h4{
     max-width: 65%;
 }
 
-
 .fa-check{
     color: var(--bg-buttons);
 }
+
 /* end promo box */
 
+
+/* partner */
+
+.picture{
+    max-width: 60%;
+}
+
+.picture>img{
+    width: 100%;
+}
+
+.partner-info-box{
+    max-width: calc(100% / 3);
+}
+
+/* end partner */
 
 
 
