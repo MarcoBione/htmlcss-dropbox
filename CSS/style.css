@@ -105,14 +105,27 @@ nav{
 
 .jumbo{
     background-color: var(--bg-jumbotron);
+    margin-bottom: 150px;
 }
 
 header div img{
-    width: 600px;
+    max-width: 100%;
+    
+}
+
+.info-container{
+    position: relative;
+}
+
+.jumbo-img{
+    max-width: 70%;
+    position: relative;
+    bottom: -100px;
+    right: 0;
 }
 
 .info{
-    max-width: calc(100% / 3);
+    max-width: calc(100% / 4);
 }
 
 .main-title{
