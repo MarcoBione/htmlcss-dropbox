@@ -151,6 +151,14 @@ section div ul span{
     outline: 1px solid var(--border-boxes);
 }
 
+.d-border-faqs{
+    border-top: 2px solid var(--border-boxes);
+}
+.d-border-faqs-end{
+    border-top: 2px solid var(--border-boxes);
+    border-bottom: 2px solid var(--border-boxes);
+}
+
 .format-exp{
     max-width: calc(100% / 3);
     padding-top: 50px;
@@ -419,6 +427,26 @@ section h4{
 
 /* end free trial */
 
+/* faqs */
+summary{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    border-top: ;
+}
+
+details p{
+    padding: 10px 0 10px 0;
+}
+
+.faq-title{
+    padding: 0 0 50px 0;
+}
+
+/* end faqs */
+
+
 /* END MAIN */
 
 
@@ -434,7 +462,7 @@ footer div>ul>li{
 }
 
 footer div>ul>li>ul>li{
-    padding: 15px 0px;
+    padding: 12px 0px;
 }
 
 footer h4{
