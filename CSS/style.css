@@ -111,7 +111,9 @@ ul{
 .padding-central-box{
     padding: 25px 0;
 }
-
+.padding-free{
+    padding: 100px 10px;
+}
 section div ul span{
     padding-left: 5px;
 }
@@ -393,6 +395,24 @@ section h4{
 }
 /* end users */
 
+
+/* free trial */
+
+.free{
+    background-color: var(--bg-jumbotron);
+}
+
+.free-trial h2{
+    font-size: 2.3rem;
+    color: var(--bg-box-porpora);
+}
+
+.button-contaier{
+    padding-top: 10px;
+}
+
+
+/* end free trial */
 
 /* END MAIN */
 
