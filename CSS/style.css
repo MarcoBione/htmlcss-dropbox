@@ -389,6 +389,7 @@ section h4{
     width: calc(100% / 2);
     height: calc(100% / 2);
     position: relative;
+    transition: box-shadow 0.2s;
 }
 
 .boxes-layout>img{
@@ -441,6 +442,10 @@ section h4{
 
 .c-channel{
     background-color: var(--bg-box-senape);
+}
+
+.boxes-layout:hover{
+    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, .5);
 }
 /* end users */
 
