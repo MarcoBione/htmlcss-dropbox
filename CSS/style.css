@@ -23,7 +23,7 @@
 }
 
 
-.debug{
+.debu{
     outline: 1px solid black;
 }
 
@@ -108,12 +108,17 @@ ul{
     padding: 100px 0;
 }
 
-.padding-central-box{
+.padding-central{
     padding: 25px 0;
 }
 .padding-free{
     padding: 100px 10px;
 }
+
+.padding-faqs{
+    padding: 100px 10px;
+}
+
 section div ul span{
     padding-left: 5px;
 }
