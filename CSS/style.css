@@ -24,7 +24,7 @@
 }
 
 /* bonus class */
-a, details, li:hover{
+a, details:hover{
     cursor: pointer;
 }
 
