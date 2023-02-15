@@ -122,6 +122,10 @@ ul{
     outline: 1px solid var(--border-boxes);
 }
 
+.format-exp{
+    max-width: calc(100% / 3);
+}
+
 /* END GENERAL */
 
 
@@ -269,7 +273,23 @@ main h4{
     max-width: calc(100% / 3);
 }
 
-/* end partner */
+/*end partner*/
+
+/* feature */
+
+.feature-img{
+    max-width: 100%;
+}
+
+section div img{
+    max-width: 100% ;
+}
+
+section h4{
+    font-size: 1.3rem;
+}
+
+/* end feature */
 
 
 
