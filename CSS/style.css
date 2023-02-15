@@ -27,8 +27,17 @@
 a, details, li:hover{
     cursor: pointer;
 }
+
 button:hover{
     cursor: pointer;
+}
+
+button.button-b:hover{
+    background-color: #2f7fff;
+}
+
+button.button-default:hover{
+    background-color: #f2f7ff;
 }
 
 ::-webkit-scrollbar{
