@@ -95,12 +95,16 @@ ul{
     padding-bottom: 15px;
 }
 
-section div ul span{
-    padding-left: 5px;
-}
-
 .padding-infobox{
     padding: 50px 0 0 25px;
+}
+
+.padding-users{
+    padding: 100px 0;
+}
+
+section div ul span{
+    padding-left: 5px;
 }
 
 .margin-t-b{
@@ -312,6 +316,12 @@ section h4{
 }
 /* end feature */
 
+/* users */
+.users-title{
+    padding: 60px 0;
+}
+
+/* end users */
 
 
 /* END MAIN */
