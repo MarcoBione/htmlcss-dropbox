@@ -32,11 +32,11 @@ button:hover{
     cursor: pointer;
 }
 
-button .button-b:hover{
+.button-b:hover{
     background-color: #2f7fff;
 }
 
-button .button-default:hover{
+.button-default:hover{
     background-color: #f2f7ff;
 }
 
@@ -167,6 +167,7 @@ section div ul span{
     background-color: var(--bg-buttons);
     color: var(--bg-color);
     border: none;
+    transition: background-color 0.2s;
 }
 
 .button-w{
@@ -177,6 +178,7 @@ section div ul span{
 .button-default{
     border: 1px solid var(--text-dark);
     background-color: var(--bg-color);
+    transition: background-color 0.2s;
 }
 
 .button-size{
