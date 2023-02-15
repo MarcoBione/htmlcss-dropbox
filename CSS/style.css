@@ -51,6 +51,11 @@ ul{
     flex-flow: row nowrap;
 }
 
+.d-flex-column{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .j-content-sb{
     justify-content: space-between;
 }
@@ -101,6 +106,10 @@ ul{
 
 .padding-users{
     padding: 100px 0;
+}
+
+.padding-central-box{
+    padding: 25px 0;
 }
 
 section div ul span{
@@ -321,6 +330,67 @@ section h4{
     padding: 60px 0;
 }
 
+.main-box{
+    width: calc(99vw  / 3);
+    height: calc(99vw  / 3);
+}
+.boxes-layout{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    position: relative;
+}
+
+.boxes-layout>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(5);
+}
+
+.info-company{
+    padding: 48px;
+    overflow-y:auto;
+}
+.info-company>img{
+    max-width: 40%;
+}
+
+.loghi{
+    width: 70%;
+}
+
+.company-designit{
+    background-color: var(--bg-box-lightgreen);
+}
+
+.asu{
+    background-color: var(--bg-box-porpora);
+}
+
+.florida{
+    background-color: var(--bg-box-cyan);
+}
+
+.topps{
+    background-color: var(--bg-box-fire);
+}
+
+.w-bicycle{
+    background-color: var(--bg-box-red);
+}
+
+.hearst{
+    background-color: var(--bg-jumbotron);
+}
+
+.l-planet{
+    background-color: var(--bg-box-navy);
+}
+
+.c-channel{
+    background-color: var(--bg-box-senape);
+}
 /* end users */
 
 
