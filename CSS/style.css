@@ -4,6 +4,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Color styles */
@@ -22,6 +23,28 @@
     --bg-box-senape: #FFD830;
 }
 
+/* bonus class */
+a, details, li:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--border-boxes);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--text-dark);
+}
+
+/* end bonus class */
 
 .debu{
     outline: 1px solid black;
@@ -346,8 +369,8 @@ section h4{
 }
 
 .main-box{
-    width: calc(99vw  / 3);
-    height: calc(99vw  / 3);
+    width: calc(100vw  / 3);
+    height: calc(100vw  / 3);
 }
 .boxes-layout{
     width: calc(100% / 2);
@@ -433,7 +456,6 @@ summary{
     display: flex;
     justify-content: space-between;
     padding: 20px 0 20px 0;
-    border-top: ;
 }
 
 details p{
